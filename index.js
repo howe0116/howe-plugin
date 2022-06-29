@@ -19,6 +19,7 @@ let rule = {
     reg: "^#?howe版本$",
     describe: "版本",
 },
+...updateMiaoPlugin,
 };
 
 export { rule };
