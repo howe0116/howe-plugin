@@ -1,6 +1,6 @@
 import { versionInfo } from "./apps/help.js";
 import { version } from "./components/Changelog.js";
-import { refer_Artifacts } from "./apps/refer_Artifacts";
+import { refer_Artifacts } from "./apps/refer_Artifacts.js";
 import { refer_description } from "./apps/help.js";
 
 
