@@ -1,7 +1,7 @@
 import { versionInfo } from "./apps/help.js";
 import { version } from "./components/Changelog.js";
 import { refer_Artifacts } from "./apps/refer_Artifacts";
-import { refer_description } from "./apps/help";
+import { refer_description } from "./apps/help.js";
 
 
 export {
@@ -19,11 +19,6 @@ let rule = {
     reg: "^#?howe版本$",
     describe: "版本",
 },
-  refer_description:{
-    reg: "^#?参考面板说明$",
-    describe: "说明",
-
-}
 };
 
 export { rule };
