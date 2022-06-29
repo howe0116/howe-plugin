@@ -19,11 +19,11 @@ let rule = {
     reg: "^#?howe版本$",
     describe: "版本",
 },
-updateMiaoPlugin: {
-  reg: "^#*(howe更新|更新howe插件)$",
-  priority: 5,
-  describe: "更新howe插件",
-},
+  updateMiaoPlugin: {
+    reg: "^#*(howe更新|更新howe插件)$",
+    priority: 5,
+    describe: "更新howe插件",
+  },
 };
 
 export { rule };
