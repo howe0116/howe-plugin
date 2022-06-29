@@ -1,7 +1,7 @@
 import { versionInfo ,refer_Artifacts_Desc} from "./apps/help.js";
 import { version } from "./components/Changelog.js";
 import { refer_Artifacts } from "./apps/refer_Artifacts.js";
-
+import common from "../../lib/common.js";
 import { updateMiaoPlugin  }from "./apps/admin.js";
 export {
   refer_Artifacts,
