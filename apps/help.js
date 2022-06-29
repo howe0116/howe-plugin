@@ -7,7 +7,7 @@ const _path = process.cwd();
 
 export const rule = {
   versionInfo: {
-    reg: "^#?howe参考面板说明$",
+    reg: "^#?howe版本$",
     priority: 100,
     describe: "版本",
   }
