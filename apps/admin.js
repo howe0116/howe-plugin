@@ -9,11 +9,6 @@ export const rule = {
         hashMark: true,
         reg: "^#howe(强制)?更新",
         describe: "【#管理】howe更新",
-      },
-      sysCfg: {
-          hashMark: true,
-          reg: sysCfgReg,
-          describe: "【#管理】系统设置"
       }
 }
 const _path = process.cwd();
