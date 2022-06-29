@@ -2,10 +2,11 @@ import { versionInfo } from "./apps/help.js";
 import { version } from "./components/Changelog.js";
 import { refer_Artifacts } from "./apps/refer_Artifacts.js";
 
-
+import { rule as updateMiaoPlugin  }from "./apps/admin.js";
 export {
   refer_Artifacts,
-  versionInfo
+  versionInfo,
+  updateMiaoPlugin,
 };
 
 

@@ -13,6 +13,15 @@ export const rule = {
         describe: "【#管理】howe更新",
       },
 }
+const _path = process.cwd();
+const checkAuth = async function (e) {
+  return await e.checkAuth({
+    auth: "master",
+    replyMsg: `只有主人才能命令喵喵哦~
+    (*/ω＼*)`
+  });
+}
+let timer;
 export async function updateMiaoPlugin(e) {
     if (!await checkAuth(e)) {
       return true;
