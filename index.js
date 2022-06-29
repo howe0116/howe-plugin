@@ -1,4 +1,4 @@
-import { versionInfo } from "./apps/help.js";
+import { versionInfo ,refer_Artifacts_Desc} from "./apps/help.js";
 import { version } from "./components/Changelog.js";
 import { refer_Artifacts } from "./apps/refer_Artifacts.js";
 
@@ -7,6 +7,7 @@ export {
   refer_Artifacts,
   versionInfo,
   updateMiaoPlugin,
+  refer_Artifacts_Desc,
 };
 
 
@@ -24,6 +25,12 @@ updateMiaoPlugin: {
   reg: "^#howe(强制)?更新",
   describe: "【#管理】howe更新",
 },
+refer_Artifacts_Desc:{
+  reg: "^#?参考面板说明$",
+  priority: 100,
+  describe: "参考面板说明",
+}
+
 };
 
 export { rule };
