@@ -19,7 +19,11 @@ let rule = {
     reg: "^#?howe版本$",
     describe: "版本",
 },
-...updateMiaoPlugin
+updateMiaoPlugin: {
+  hashMark: true,
+  reg: "^#howe(强制)?更新",
+  describe: "【#管理】howe更新",
+},
 };
 
 export { rule };
