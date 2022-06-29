@@ -1,10 +1,6 @@
 import { segment } from "oicq";
-import { createRequire } from "module";
 import { exec } from "child_process";
 
-const require = createRequire(
-	import.meta.url);
-    
 export const rule = {
     updateMiaoPlugin: {
         hashMark: true,

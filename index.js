@@ -2,7 +2,7 @@ import { versionInfo } from "./apps/help.js";
 import { version } from "./components/Changelog.js";
 import { refer_Artifacts } from "./apps/refer_Artifacts.js";
 
-import { rule as updateMiaoPlugin  }from "./apps/admin.js";
+import { updateMiaoPlugin  }from "./apps/admin.js";
 export {
   refer_Artifacts,
   versionInfo,
@@ -19,11 +19,7 @@ let rule = {
     reg: "^#?howe版本$",
     describe: "版本",
 },
-  updateMiaoPlugin: {
-    reg: "^#*(howe更新|更新howe插件)$",
-    priority: 5,
-    describe: "更新howe插件",
-  },
+...updateMiaoPlugin
 };
 
 export { rule };
