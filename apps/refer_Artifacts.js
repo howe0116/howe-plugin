@@ -39,7 +39,7 @@ export function refer_Artifacts (e) {
         //最后回复消息
         let msg = [
             segment.image (path),
-            '--来源:nga @bluemushoom',
+            '[来源:nga @bluemushoom]',
         ];
         //发送消息
         e.reply (msg);
