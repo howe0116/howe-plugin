@@ -1,8 +1,9 @@
 # howe-plugin说明
 
-自用插件 ,howe-plugin是插入Yunzai-Bot插件，提供参考面板
+自用插件 ,howe-plugin是插入Yunzai-Bot的插件，提供角色参考面板
 
-## 图片来源
+
+## 相关链接
 
 nga帖子:https://bbs.nga.cn/read.php?tid=25843014
 
